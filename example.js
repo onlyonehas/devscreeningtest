@@ -37,6 +37,7 @@ a) What is the purpose of this snippet?
 
 b) What special considerations does it make for using a destination anchor (<a href="#foo" />)?
 
+
 c) Can you spot any mistakes or things that could be improved?
 varible using $ instead of var, missing semi colon at the end of some lines. 
 

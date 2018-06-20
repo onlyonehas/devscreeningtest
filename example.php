@@ -57,7 +57,10 @@ for ($x = 0; $x < Database::get_total_rows(); $x++) {
 }
 
 
+The query is returning the most logged in user according to their country, company and deptartment in descending order
 
+the format of the data array would be multi dimentional array, the first index being the number of row followed by column name 
+eg $data[0]['total_logins'];
 
 #########################################################################
 # Explain this code, how would you get a database object for the default
@@ -131,3 +134,9 @@ class ExampleChildClass extends ExampleParentClass
 }
 
 echo ExampleChildClass::test();
+
+
+The code would always return the name of the class 'ExampleParentClass', 
+this is because ExampleChildClass is inheriting all the parent functions
+and self would always refer to the current ExampleParentClass
+and get_class function returns the name of the class.

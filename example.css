@@ -30,9 +30,13 @@ Now answer the following questions
 
 a) What colour will the link text be for the above HTML?
 
+black the id takes precedence 
+
 b) What colour will the link text be if the id is removed from the link?
+red the child elements inherit p red class 
 
 c) Did you cheat?
+yes
 */
 
 
